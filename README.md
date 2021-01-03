@@ -62,6 +62,5 @@ Due to the limited computational power, it is difficult to train the classificat
 ## Useful Links
 
 
-1. The Google Colab Notebook can be viewed [here](https://colab.research.google.com/drive/1d3mVcoinztULLif3DzTMcbcA7KGha14W?usp=sharing).
-2. The PlantVillage dataset paper can be found [here](https://arxiv.org/abs/1511.08060).
+1. The PlantVillage dataset paper can be found [here](https://arxiv.org/abs/1511.08060).
 
