@@ -1,4 +1,4 @@
-# Plant Disease Detection
+# Detection of Plant Disease
 
 ![Plant Image](https://cdn-images-1.medium.com/max/1200/1*FswlF4lZPQ4kT_gkybacZw.jpeg)
 
