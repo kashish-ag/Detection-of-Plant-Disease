@@ -60,5 +60,7 @@ The dataset contains a total of **38 classes** of plant disease and **1** class 
 Due to the limited computational power, it is difficult to train the classification model locally on a majority of normal machines. Therefore, we use the processing power offered by Google Colab notebook as it connects us to a free TPU instance quickly and effortlessly.
 
 ## Useful Links
+
 1. The PlantVillage dataset paper can be found [here](https://arxiv.org/abs/1511.08060).
+
 
