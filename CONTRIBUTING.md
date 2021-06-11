@@ -38,15 +38,9 @@ Click on the <a href="https://github.com/kashish-ag/Detection-of-Plant-Disease.g
 git clone https://github.com/<your-github-username>/project_name.git
 ```
 
-**3.** Navigate to the project directory.
+**3.** Make changes in source code.
 
-```bash
-cd Detection-of-Plant-Disease
-```
-
-**4.** Make changes in source code.
-
-**5.** Stage your changes and commit
+**4.** Stage your changes and commit
 
 ```bash
 #Add changes to Index
@@ -56,15 +50,15 @@ git add .
 git commit -m "<your_commit_message>"
 ```
 
-**7.** Push your local commits to the remote repo.
+**5.** Push your local commits to the remote repo.
 
 ```bash
 git push
 ```
 
-**8.** Create a [PR](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request) !
+**6.** Create a [PR](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request) !
 
-**9.** **Congratulations!** Sit and relax, you've made your contribution to TextAnalyzer project.
+**7.** **Congratulations!** Sit and relax, you've made your contribution to TextAnalyzer project.
 
 
 ***:trophy: After this, project leaders and mentors will review the changes and will merge your PR if they are found good, otherwise we will suggest the required changes.***
