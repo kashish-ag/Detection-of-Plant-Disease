@@ -23,10 +23,6 @@ Refer to the following articles on the basics of Git and Github and can also con
 - Create a Pull Request which will be promptly reviewed and suggestions would be added to improve it.
 - Add Screenshots to help us know what this Script is all about.
 
-## 💻 INSTALLING DEPENDENCIES :
-
-- **requirements.txt** would be enough for most of the users to install dependencies when working in their local environment.
-
 ## ⭐HOW TO MAKE A PULL REQUEST :
 
 **1.** Fork [this](https://github.com/kashish-ag/Detection-of-Plant-Disease.git) repository.
