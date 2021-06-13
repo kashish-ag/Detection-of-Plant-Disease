@@ -1,0 +1,14 @@
+<html>  
+<head>  
+    <title>Main</title>  
+</head>  
+<body>  
+    <form action = "/success" method = "post" enctype="multipart/form-data">  
+        <input type="file" name="file" />  
+        <input type = "submit" value="Upload">  
+    </form>
+    <!-- Here as I am using single html page for both uploading the image and showing the class predicted
+    hence the class written will be of previous image uploaded--> 
+    <p>Class Predicted for Image uploaded on previous page : {{name}}</p> 
+</body>  
+</html>
