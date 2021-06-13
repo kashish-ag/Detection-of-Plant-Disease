@@ -361,8 +361,25 @@ def predict_disease(image_path):
     np_image = np.expand_dims(np_image,0)
     plt.imshow(plt.imread(image_path))
     result = model.predict_classes(np_image)
-    print((image_labels.classes_[result][0]))
+    #print((image_labels.classes_[result][0]))
+    return (image_labels.classes_[result][0])
 
 """Predict disease of any plant image."""
 
-predict_disease('/content/PlantVillage/val/Corn_(maize)___Northern_Leaf_Blight/028159fc-995e-455a-8d60-6d377580a898___RS_NLB 4023.JPG')
+#print(predict_disease('/content/PlantVillage/val/Corn_(maize)___Northern_Leaf_Blight/028159fc-995e-455a-8d60-6d377580a898___RS_NLB 4023.JPG'))
+
+from flask import *
+app = Flask(__name__)
+
+@app.route('/',methods=['POST', 'GET'])
+def index():
+    if(request.method=='GET'):
+        return render_template('upload.html')
+    elif(request.method=='POST'):
+        f = request.files['file']
+        #we can also save the file if we want to using f.save(f.filename)
+        class_predicted = predict_disease(f)
+        return render_template("upload.html", name = class_predicted)
+
+if __name__ == '__main__':
+    app.run(debug=True)
