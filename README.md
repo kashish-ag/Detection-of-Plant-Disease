@@ -64,3 +64,17 @@ Due to the limited computational power, it is difficult to train the classificat
 1. The PlantVillage dataset paper can be found [here](https://arxiv.org/abs/1511.08060).
 
 
+## Project Admin👨‍:
+
+<p align="center">
+<img width=20% src="https://avatars.githubusercontent.com/u/72383661?v=4">
+</p>
+<a href="https://www.linkedin.com/in/kashishag19/">
+<h5 align="center"><b>Kashish Agarwal</b></a>
+
+## License 
+
+<p align="center">
+<a href="https://github.com/kashish-ag/Detection-of-Plant-Disease/blob/main/LICENSE">
+<img width=35% src="https://media.tenor.com/images/68ecdcb63296f1db6532bf5b83051da9/tenor.gif"></p>
+<h5 align="center"><b>MIT License</b></a> 
