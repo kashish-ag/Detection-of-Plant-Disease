@@ -119,4 +119,4 @@ Due to the limited computational power, it is difficult to train the classificat
 
 <!-- You can find our Code of Conduct [here](https://github.com/kashish-ag/Detection-of-Plant-Disease/blob/main/CODE_OF_CONDUCT.md). -->
 
- 
+ <hr>
