@@ -75,6 +75,7 @@ image_len = len(image_list)
 print(f"Total number of images: {image_len}")
 
 # Check for the accuracy of the model 
+
 acc = history.history['accuracy']
 val_acc = history.history['val_accuracy']
 
@@ -84,9 +85,9 @@ val_loss = history.history['val_loss']
 epochs = range(1, len(acc) + 1)
 
 # Plot showing the Training accuracy and Validation accuracy
-plt.plot(epochs, acc, 'b', label='Training accurarcy')
-plt.plot(epochs, val_acc, 'r', label='Validation accurarcy')
-plt.title('Training and Validation accurarcy')
+plt.plot(epochs, acc, 'b', label='Training accuracy')
+plt.plot(epochs, val_acc, 'r', label='Validation accuracy')
+plt.title('Training and Validation accuracy')
 plt.legend()
 
 plt.figure()
@@ -97,8 +98,6 @@ plt.plot(epochs, val_loss, 'r', label='Validation loss')
 plt.title('Training and Validation loss')
 plt.legend()
 plt.show()
-
-
 
 
 # Dump pickle file of the model
