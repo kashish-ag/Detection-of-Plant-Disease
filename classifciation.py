@@ -19,7 +19,7 @@ from keras.preprocessing.image import img_to_array
 from sklearn.preprocessing import MultiLabelBinarizer
 from sklearn.model_selection import train_test_split
 
-# Dimension of resized image
+# Dimensions of resized image
 DEFAULT_IMAGE_SIZE = tuple((256, 256))
 
 # Number of images used to train the model
