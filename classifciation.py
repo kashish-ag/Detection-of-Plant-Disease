@@ -1,3 +1,4 @@
+# Import required Libraries
 import numpy as np
 import pickle
 import cv2
@@ -27,9 +28,11 @@ N_IMAGES = 100
 # Path to the dataset folder
 root_dir = './PlantVillage'
 
+# Training and Validating the dataset
 train_dir = os.path.join(root_dir, 'train')
 val_dir = os.path.join(root_dir, 'val')
 
+# Convert Image into Array format
 def convert_image_to_array(image_dir):
     try:
         image = cv2.imread(image_dir)
@@ -71,15 +74,16 @@ print()
 image_len = len(image_list)
 print(f"Total number of images: {image_len}")
 
-
-
+# Check for the accuracy of the model 
 acc = history.history['accuracy']
 val_acc = history.history['val_accuracy']
+
+# Check the validation loss of the model
 loss = history.history['loss']
 val_loss = history.history['val_loss']
 epochs = range(1, len(acc) + 1)
 
-# Train and validation accuracy
+# Plot showing the Training accuracy and Validation accuracy
 plt.plot(epochs, acc, 'b', label='Training accurarcy')
 plt.plot(epochs, val_acc, 'r', label='Validation accurarcy')
 plt.title('Training and Validation accurarcy')
@@ -87,7 +91,7 @@ plt.legend()
 
 plt.figure()
 
-# Train and validation loss
+# Plot showing the Training loss  and Validation loss
 plt.plot(epochs, loss, 'b', label='Training loss')
 plt.plot(epochs, val_loss, 'r', label='Validation loss')
 plt.title('Training and Validation loss')

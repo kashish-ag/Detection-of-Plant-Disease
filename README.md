@@ -2,13 +2,15 @@
 
 ![Plant Image](https://cdn-images-1.medium.com/max/1200/1*FswlF4lZPQ4kT_gkybacZw.jpeg)
 
-## Introduction
+## Introduction :
 
-Getting affected by a disease is very common in plants due to various factors such as fertilizers, cultural practices followed, environmental conditions, etc. These diseases hurt agricultural yield and eventually the economy based on it. 
+Now-a-days due to changes in the environmental conditions, plants are being affected which results in the decrease in the yield. Some of the reasons where plants are affected is over usage of fertilizers, pesticides etc., This may reduce the agricultural yield and eventually the economy based on it. 
 
 Any technique or method to overcome this problem and getting a warning before the plants are infected would aid farmers to efficiently cultivate crops or plants, both qualitatively and quantitatively. Thus, disease detection in plants plays a very important role in agriculture.
 
-## The PlantVillage Dataset
+Finally, farmers will be benificial in detecting whether the crop is effected by any disease or not and can hope for the best regarding the crop yeild.
+
+## The PlantVillage Dataset :
 
 We use a publicly available and quite famous, the PlantVillage Dataset. The dataset was published by crowdAI during the ["PlantVillage Disease Classification Challenge"](https://www.crowdai.org/challenges/plantvillage-disease-classification-challenge). 
 
@@ -59,7 +61,25 @@ The dataset contains a total of **38 classes** of plant disease and **1** class 
 
 Due to the limited computational power, it is difficult to train the classification model locally on a majority of normal machines. Therefore, we use the processing power offered by Google Colab notebook as it connects us to a free TPU instance quickly and effortlessly.
 
-## Useful Links
+## Mean F1 Score Calulation : 
+
+The F1 score is computed separately for all classes using :
+
+<h4><b>F1 = 2*(pr) / (P + R)</b></h4>
+<h4><b>P = tp / (tp + fp)</b></h4>
+<h4><b>R = tp / (tp + fn)</b></h4>
+
+<ul> <li> P refers to the precision</li>
+<li> R refers to the recall</li>
+<li> tp refers to the number of True Positives</li>
+<li> fp refers to the number of False Positives</li>
+<li> fn refers to the number of False Negatives</li>
+</ul>
+ 
+Then finally the Mean of all the F1 scores across all the classes is used for come up with the combined Mean F1 score.
+
+
+## Some Useful Links :
 
 1. The PlantVillage dataset paper can be found [here](https://arxiv.org/abs/1511.08060).
 
