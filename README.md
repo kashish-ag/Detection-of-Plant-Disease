@@ -73,13 +73,16 @@ Due to the limited computational power, it is difficult to train the classificat
 1. The PlantVillage dataset paper can be found [here](https://arxiv.org/abs/1511.08060).
 
 
+<hr>
+
+
 ## Project Admin👨‍:
 
 <p align="center">
-<img width=20% src="https://avatars.githubusercontent.com/u/72383661?v=4">
-</p>
-<a href="https://www.linkedin.com/in/kashishag19/">
-<h5 align="center"><b>Kashish Agarwal</b></a>
+<a href="https://github.com/kashish-ag"><img src="https://avatars.githubusercontent.com/u/72383661?v=4" width=150px height=150px /></a></br> 
+<p align="center">
+  <a target="_blank"href="https://www.linkedin.com/in/kashishag19/"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
+
 
 <hr>
 
@@ -116,4 +119,4 @@ Due to the limited computational power, it is difficult to train the classificat
 
 <!-- You can find our Code of Conduct [here](https://github.com/kashish-ag/Detection-of-Plant-Disease/blob/main/CODE_OF_CONDUCT.md). -->
 
- 
+ <hr>
