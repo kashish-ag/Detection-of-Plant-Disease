@@ -1,4 +1,4 @@
-## Detection of Plant Disease
+# Detection of Plant Disease
 
 ![Plant Image](https://cdn-images-1.medium.com/max/1200/1*FswlF4lZPQ4kT_gkybacZw.jpeg)
 
@@ -68,6 +68,53 @@ Due to the limited computational power, it is difficult to train the classificat
 </p>
 </br>
 
+## Contributing Guidelines 👷
+
+* <a href="#" target="_self" title="Fork">Fork</a> the project.
+* Create your Feature Branch
+```bash
+git checkout -b '<your_branch_name>'
+```
+* Stage your changes
+```bash
+git add .
+```
+* Commit your changes
+```bash
+git commit -m '<your_commit_message>'
+```
+* Check for Status to be sure everything is added
+```bash
+git status
+```
+* Check for your remote
+```bash
+git remote -v
+```
+* Push changes to remote
+```bash
+git push origin '<your_branch_name>'
+```
+* Open a <a href="https://github.com/kashish-ag/Detection-of-Plant-Disease/pulls" title="Create Pull request">Pull Request</a>
+
+<br>
+
+## 📌 Opensource Programs
+
+### This project is a part of following Open Source Program
+<br>
+
+<table style="width:80%;background-color:white;border-radius:30px;">
+    <tr>
+  <td>
+<center>
+  <a href="https://letsgrowmore.in/projects/"><img src="https://letsgrowmore.in/wp-content/uploads/2021/05/cropped-growmore-removebg-preview.png"></img></a>
+  </center>
+  </td>
+  </tr>
+</table>
+    <hr>
+
 ## Useful Links
 
 1. The PlantVillage dataset paper can be found [here](https://arxiv.org/abs/1511.08060).
@@ -75,8 +122,10 @@ Due to the limited computational power, it is difficult to train the classificat
 
 <hr>
 
+<br>
 
 ## Project Admin👨‍:
+
 
 <p align="center">
 <a href="https://github.com/kashish-ag"><img src="https://avatars.githubusercontent.com/u/72383661?v=4" width=150px height=150px /></a></br> 
@@ -120,3 +169,10 @@ Due to the limited computational power, it is difficult to train the classificat
 <!-- You can find our Code of Conduct [here](https://github.com/kashish-ag/Detection-of-Plant-Disease/blob/main/CODE_OF_CONDUCT.md). -->
 
  <hr>
+
+ <p align="center">
+<a href="https://github.com/kashish-ag/Detection-of-Plant-Disease" title="Woodog Github">
+<img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white">
+    
+</a>
+</p>
