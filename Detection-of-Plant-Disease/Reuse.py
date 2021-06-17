@@ -1,4 +1,3 @@
-# Import Required Libraries
 import numpy as np
 import pickle
 import cv2
@@ -21,17 +20,17 @@ from sklearn.model_selection import train_test_split
 
 
 
-# Load plant disease classification model
+# Load model
 filename = 'plant_disease_classification_model.pkl'
 model = pickle.load(open(filename, 'rb'))
 
-# Load plant disease labels
+# Load labels
 filename = 'plant_disease_label_transform.pkl'
 image_labels = pickle.load(open(filename, 'rb'))
 
 
 
-# Dimensions of resized image
+# Dimension of resized image
 DEFAULT_IMAGE_SIZE = tuple((256, 256))
 
 def convert_image_to_array(image_dir):
@@ -53,5 +52,7 @@ def predict_disease(image_path):
     plt.imshow(plt.imread(image_path))
     result = model.predict_classes(np_image)
     print((image_labels.classes_[result][0]))
+
+
 
     predict_disease('/content/PlantVillage/val/Corn_(maize)___Northern_Leaf_Blight/028159fc-995e-455a-8d60-6d377580a898___RS_NLB 4023.JPG')
