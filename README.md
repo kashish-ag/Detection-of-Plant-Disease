@@ -86,6 +86,32 @@ Then finally the Mean of all the F1 scores across all the classes is used for co
 1. The PlantVillage dataset paper can be found [here](https://arxiv.org/abs/1511.08060).
 
 
+### Levels & Points
+
+<table>
+  <tr>
+    <th>Level</th>
+    <th>Points</th> 
+  </tr>
+  <tr>
+    <td>Level 0</td>
+    <td>5</td>
+  </tr>
+  <tr>
+    <td>Level 1</td>
+    <td>10</td>
+  </tr>
+  <tr>
+    <td>Level 2</td>
+    <td>25</td>
+  </tr>
+  <tr>
+    <td>Level 3</td>
+    <td>45</td>
+  </tr>
+</table>
+
+
 ## Project Admin👨‍:
 
 <p align="center">
