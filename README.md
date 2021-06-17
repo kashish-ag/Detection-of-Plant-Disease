@@ -103,10 +103,14 @@ Then finally the Mean of all the F1 scores across all the classes is used for co
   </tr>
   <tr>
     <td>Level 2</td>
-    <td>25</td>
+    <td>15</td>
   </tr>
   <tr>
     <td>Level 3</td>
+    <td>30</td>
+  </tr>
+  <tr>
+    <td>Level 4</td>
     <td>45</td>
   </tr>
 </table>
