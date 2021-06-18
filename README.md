@@ -2,17 +2,13 @@
 
 ![Plant Image](https://cdn-images-1.medium.com/max/1200/1*FswlF4lZPQ4kT_gkybacZw.jpeg)
 
-## Introduction :
+## Introduction
 
-Now-a-days due to changes in the environmental conditions, plants are being affected which results in the decrease in the yield. Some of the reasons where plants are affected is over usage of fertilizers, pesticides etc., This may reduce the agricultural yield and eventually the economy based on it. 
-
-A sign of plant disease is physical evidence of the pathogen. A symptom of plant disease is a visible effect of disease on the plant. Symptoms may include a detectable change in color, shape or function of the plant as it responds to the pathogen. Leaf wilting is a typical symptom, caused by the fungal plant pathogens. Common bacterial blight symptoms include brown, necrotic lesions surrounded by a bright yellow halo at the leaf margin or interior of the leaf on bean plants. You are not actually seeing the disease pathogen, but rather a symptom that is being caused by the pathogen.
+Getting affected by a disease is very common in plants due to various factors such as fertilizers, cultural practices followed, environmental conditions, etc. These diseases hurt agricultural yield and eventually the economy based on it. 
 
 Any technique or method to overcome this problem and getting a warning before the plants are infected would aid farmers to efficiently cultivate crops or plants, both qualitatively and quantitatively. Thus, disease detection in plants plays a very important role in agriculture.
 
-Finally, farmers will be benificial in detecting whether the crop is effected by any disease or not and can hope for the best regarding the crop yeild.
-
-## The PlantVillage Dataset :
+## The PlantVillage Dataset
 
 We use a publicly available and quite famous, the PlantVillage Dataset. The dataset was published by crowdAI during the ["PlantVillage Disease Classification Challenge"](https://www.crowdai.org/challenges/plantvillage-disease-classification-challenge). 
 
@@ -63,70 +59,120 @@ The dataset contains a total of **38 classes** of plant disease and **1** class 
 
 Due to the limited computational power, it is difficult to train the classification model locally on a majority of normal machines. Therefore, we use the processing power offered by Google Colab notebook as it connects us to a free TPU instance quickly and effortlessly.
 
-## Mean F1 Score Calulation : 
+## 💻Tech Stacks
+</br>
+<p>
+<img alt="Jupyter" src="https://img.shields.io/badge/jupyter%20-%23323330.svg?&style=for-the-badge&logo=jupyter&logoColor=orange"/>
+<img alt="Python" src="https://img.shields.io/badge/python%20-%2314354C.svg?&style=for-the-badge&logo=python&logoColor=white"/>
+<img alt="HTML5" src="https://img.shields.io/badge/html5%20-%23323330.svg?&style=for-the-badge&logo=html5&logoColor=red"/>     
+</p>
+</br>
 
-The F1 score is computed separately for all classes using :
+## Contributing Guidelines 👷
 
-<h4><b>F1 = 2*(pr) / (P + R)</b></h4>
-<h4><b>P = tp / (tp + fp)</b></h4>
-<h4><b>R = tp / (tp + fn)</b></h4>
+* <a href="#" target="_self" title="Fork">Fork</a> the project.
+* Create your Feature Branch
+```bash
+git checkout -b '<your_branch_name>'
+```
+* Stage your changes
+```bash
+git add .
+```
+* Commit your changes
+```bash
+git commit -m '<your_commit_message>'
+```
+* Check for Status to be sure everything is added
+```bash
+git status
+```
+* Check for your remote
+```bash
+git remote -v
+```
+* Push changes to remote
+```bash
+git push origin '<your_branch_name>'
+```
+* Open a <a href="https://github.com/kashish-ag/Detection-of-Plant-Disease/pulls" title="Create Pull request">Pull Request</a>
 
-<ul> <li> P refers to the precision</li>
-<li> R refers to the recall</li>
-<li> tp refers to the number of True Positives</li>
-<li> fp refers to the number of False Positives</li>
-<li> fn refers to the number of False Negatives</li>
-</ul>
- 
-Then finally the Mean of all the F1 scores across all the classes is used for come up with the combined Mean F1 score.
+<br>
 
+## 📌 Opensource Programs
 
-## Some Useful Links :
+### This project is a part of following Open Source Program
+<br>
+
+<table style="width:80%;background-color:white;border-radius:30px;">
+    <tr>
+  <td>
+<center>
+  <a href="https://letsgrowmore.in/projects/"><img src="https://letsgrowmore.in/wp-content/uploads/2021/05/cropped-growmore-removebg-preview.png"></img></a>
+  </center>
+  </td>
+  </tr>
+</table>
+    <hr>
+
+## Useful Links
 
 1. The PlantVillage dataset paper can be found [here](https://arxiv.org/abs/1511.08060).
 
 
-### Levels & Points
+<hr>
 
-<table>
-  <tr>
-    <th>Level</th>
-    <th>Points</th> 
-  </tr>
-  <tr>
-    <td>Level 0</td>
-    <td>5</td>
-  </tr>
-  <tr>
-    <td>Level 1</td>
-    <td>10</td>
-  </tr>
-  <tr>
-    <td>Level 2</td>
-    <td>15</td>
-  </tr>
-  <tr>
-    <td>Level 3</td>
-    <td>30</td>
-  </tr>
-  <tr>
-    <td>Level 4</td>
-    <td>45</td>
-  </tr>
-</table>
-
+<br>
 
 ## Project Admin👨‍:
 
-<p align="center">
-<img width=20% src="https://avatars.githubusercontent.com/u/72383661?v=4">
-</p>
-<a href="https://www.linkedin.com/in/kashishag19/">
-<h5 align="center"><b>Kashish Agarwal</b></a>
 
-## License 
+<p align="center">
+<a href="https://github.com/kashish-ag"><img src="https://avatars.githubusercontent.com/u/72383661?v=4" width=150px height=150px /></a></br> 
+<p align="center">
+  <a target="_blank"href="https://www.linkedin.com/in/kashishag19/"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+<hr>
+
+## ✨Our valuable Contributors :
+<br>
+
+<table >
+	<tr>
+		<td >
+			<a href="https://github.com/kashish-ag/Detection-of-Plant-Disease/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=kashish-ag/Detection-of-Plant-Disease" />
+</a>
+		</td>
+	</tr>
+</table>
+
+<hr>
+
+
+## License:
 
 <p align="center">
 <a href="https://github.com/kashish-ag/Detection-of-Plant-Disease/blob/main/LICENSE">
 <img width=35% src="https://media.tenor.com/images/68ecdcb63296f1db6532bf5b83051da9/tenor.gif"></p>
-<h5 align = "center"><b>MIT License</b></a> 
+<h5 align="center"><b>MIT License</b></a> 
+
+<br>
+
+## 📜 Code Of Conduct:
+<p align="center">
+<a href="https://github.com/kashish-ag/Detection-of-Plant-Disease/blob/main/CODE_OF_CONDUCT.md">
+<img width=35% src="https://c.tenor.com/xeHd9DDYS1cAAAAM/jack-nicholson-who-cares.gif"></p>
+<h5 align="center"><b>Click to read</b></a>  
+
+<!-- You can find our Code of Conduct [here](https://github.com/kashish-ag/Detection-of-Plant-Disease/blob/main/CODE_OF_CONDUCT.md). -->
+
+ <hr>
+
+ <p align="center">
+<a href="https://github.com/kashish-ag/Detection-of-Plant-Disease" title="Woodog Github">
+<img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white">
+    
+</a>
+</p>
