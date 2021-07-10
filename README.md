@@ -1,3 +1,4 @@
+
 # Detection of Plant Disease
 
 <div align="center">
@@ -17,8 +18,9 @@
 <a href="https://github.com/kashish-ag/Detection-of-Plant-Disease/pulls"><img src="https://img.shields.io/github/issues-pr/kashish-ag/Detection-of-Plant-Disease?color=brightgreen"></a>
 <a href="https://github.com/kashish-ag/Detection-of-Plant-Disease/pulls?q=is%3Apr+is%3Aclosed"><img src="https://img.shields.io/github/issues-pr-closed-raw/kashish-ag/Detection-of-Plant-Disease?color=0059b3"></a> 
 </div>
-
-![Plant Image](https://cdn-images-1.medium.com/max/1200/1*FswlF4lZPQ4kT_gkybacZw.jpeg)
+<p align=center>
+<img src="https://user-images.githubusercontent.com/74819092/124498690-63afb280-ddda-11eb-8a50-10ec7d46db44.png" hieght=400, width=400>
+</p>
 
 ## Introduction
 
@@ -35,45 +37,19 @@ The dataset consists of about **54,305 images** of plant leaves collected under 
 > **Apple, Blueberry, Cherry, Corn, Grape, Orange, Peach, Bell Pepper, Potato, Raspberry, Soybean, Squash, Strawberry, and Tomato.**
 
 The dataset contains a total of **38 classes** of plant disease and **1** class of background images listed below:
+|                     |                      |                        |                          | 
+| :---:               |    :----:            |          :---:         |         :---:            |  
+| Apple Scab          | Apple Black Rot      | Apple Cedar Rust       | Apple Healthy            |
+| Blueberry Healthy   | Cherry Healthy       | Cherry Powdery Mildew  | Corn Northern Leaf Blight|
+|Corn Gray Leaf Spot  |Corn Common Rust      |Corn healthy            | Grape Black Rot          |     
+|Grape Black Measles  | Grape Leaf Blight    | Grape Healthy          | Bell Pepper Healthy      |
+| Orange Huanglongbing|Peach Bacterial Spot  | Peach Healthy          |Bell Pepper Bacterial Spot|
+| Potato Early Blight | Potato Healthy       | Potato Late Blight     |Raspberry Healthy         |
+| Soybean Healthy     | Squash Powdery Mildew| Strawberry Healthy     | Strawberry Leaf Scorch   |
+|Tomato Bacterial Spot| Tomato Early Blight  | Tomato Late Blight     |Tomato Leaf Mold          |
+|Tomato Septoria Leaf Spot| Tomato Two Spotted Spider Mite | Tomato Target Spot |Tomato Mosaic Virus |
+|Tomato Yellow Leaf Curl Virus | Tomato Healthy      |    |    |
 
-1. Apple Scab
-2. Apple Black Rot
-3. Apple Cedar Rust
-4. Apple healthy
-5. Blueberry healthy
-6. Cherry healthy
-7. Cherry Powdery Mildew
-8. Corn Gray Leaf Spot
-9. Corn Common Rust
-10. Corn healthy
-11. Corn Northern Leaf Blight
-12. Grape Black Rot
-13. Grape Black Measles
-14. Grape Leaf Blight
-15. Grape healthy
-16. Orange Huanglongbing
-17. Peach Bacterial Spot
-18. Peach healthy
-19. Bell Pepper Bacterial Spot
-20. Bell Pepper healthy
-21. Potato Early Blight
-22. Potato healthy
-23. Potato Late Blight
-24. Raspberry healthy
-25. Soybean healthy
-26. Squash Powdery Mildew
-27. Strawberry Healthy
-28. Strawberry Leaf Scorch
-29. Tomato Bacterial Spot
-30. Tomato Early Blight
-31. Tomato Late Blight
-32. Tomato Leaf Mold
-33. Tomato Septoria Leaf Spot
-34. Tomato Two Spotted Spider Mite
-35. Tomato Target Spot
-36. Tomato Mosaic Virus
-37. Tomato Yellow Leaf Curl Virus
-38. Tomato healthy
 
 Due to the limited computational power, it is difficult to train the classification model locally on a majority of normal machines. Therefore, we use the processing power offered by Google Colab notebook as it connects us to a free TPU instance quickly and effortlessly.
 
@@ -89,10 +65,15 @@ Due to the limited computational power, it is difficult to train the classificat
 ## Contributing Guidelines 👷
 
 * <a href="#" target="_self" title="Fork">Fork</a> the project.
+![image](https://user-images.githubusercontent.com/74819092/124501837-e71fd280-dddf-11eb-89b2-b58612d9a1dc.png)
+
 * Create your Feature Branch
 ```bash
 git checkout -b '<your_branch_name>'
-```
+```  
+### or 
+![image](https://user-images.githubusercontent.com/74819092/124501937-1cc4bb80-dde0-11eb-93a0-dbf5e9a71626.png)
+
 * Stage your changes
 ```bash
 git add .
