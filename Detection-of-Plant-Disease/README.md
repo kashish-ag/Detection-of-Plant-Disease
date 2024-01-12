@@ -23,7 +23,7 @@ The dataset contains a total of **38 classes** of plant disease and **1** class 
 1. Apple Scab
 2. Apple Black Rot
 3. Apple Cedar Rust
-4. Apple healthy
+4. Apple Healthy
 5. Blueberry healthy
 6. Cherry healthy
 7. Cherry Powdery Mildew
